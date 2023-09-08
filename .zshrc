@@ -1,5 +1,7 @@
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
+# 
+# Add Golang created binaries to $PATH
 export GOPATH=$HOME/go
 export PATH=$PATH:$GOROOT/bin:$GOPATH/bin
 
@@ -74,9 +76,9 @@ ZSH_THEME="robbyrussell"
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(
-    fzf
+    fzf-zsh-plugin
     git
-    history-substring-search
+    zsh-history-substring-search
     colored-man-pages
     zsh-autosuggestions
     zsh-syntax-highlighting
